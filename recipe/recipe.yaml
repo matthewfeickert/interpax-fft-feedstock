@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.0.8"
+  version: "0.0.9"
   python_min: "3.10"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/i/interpax-fft/interpax_fft-${{ version }}.tar.gz
-  sha256: b5bf70e12ce95af808bdcdba2d727dc7eea3a67c30eb888ef70762b52b259c0d
+  sha256: 668147fdcfed6e02aa638696aa81ad4c269cfb99073e8b0ec9575eef372b59eb
 
 build:
   number: 0
@@ -29,10 +29,7 @@ requirements:
     - jax >=0.5.0,!=0.5.1,!=0.5.2,!=0.6.0,!=0.7.1,!=0.8.2,!=0.9.0
     - jaxtyping >=0.2.24
     - numpy >=1.20.0
-    # FIXME upstream: Required for version import
     - packaging
-    # FIXME upstream: visualization required for import
-    - matplotlib-base
 
 tests:
   - python:
