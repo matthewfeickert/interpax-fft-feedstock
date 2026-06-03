@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.0.7"
+  version: "0.0.8"
   python_min: "3.10"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/i/interpax-fft/interpax_fft-${{ version }}.tar.gz
-  sha256: a1d37509349270c008f264947682a0d1ef03e0c210dd479d86c03eebf7986ee8
+  sha256: b5bf70e12ce95af808bdcdba2d727dc7eea3a67c30eb888ef70762b52b259c0d
 
 build:
   number: 0
